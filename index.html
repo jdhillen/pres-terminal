@@ -8,7 +8,7 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+		<link rel="stylesheet" href="dist/theme/night.css" id="theme">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
@@ -16,8 +16,124 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+                    <h3>Pimp My Terminal 101</h3>
+                </section>
+                <section>
+                    <img src="assets/img/xzibit.jpg" alt="" srcset="">
+                </section>
+                <section>
+                    <h5>Terminal Emulation Applications</h5>
+                    <ul>
+                        <li>Default Terminal</li>
+                        <li>
+                            <a href="https://iterm2.com/" target="_blank">iTerm2</a>
+                        </li>
+                        <li>
+                            <a href="https://hyper.is/" target="_blank">Hyper</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/alacritty/alacritty" target="_blank">Alacritty</a>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h5>Types of Shells</h5>
+                    <ul>
+                        <li>Bash</li>
+                        <li>
+                            <a href="https://ohmyz.sh/" target="_blank">ZSH</a>
+                        </li>
+                        <li>
+                            <a href="https://fishshell.com//" target="_blank">Fish</a>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h5>Package Managers</h5>
+                    <ul>
+                        <li>
+                            <a href="https://brew.sh/" target="_blank">Homebrew (Mac)</a>
+                        </li>
+                        <li>
+                            <a href="https://chocolatey.org/" target="_blank">Chocolatey (Win)</a>
+                        </li>
+                        <li>
+                            <a href="https://www.npmjs.com/" target="_blank">NPM (Node)</a>
+                        </li>
+                        <li>
+                            <a href="https://pip.pypa.io/en/stable/" target="_blank">PIP (Python)</a>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h5>Command Line Tools</h5>
+                    <ul>
+                        <li>
+                            <a href="https://asdf-vm.com/" target="_blank">ASDF - Runtime Version Manager</a>
+                        </li>
+                        <li>
+                            <a href="https://www.speedtest.net/apps/cli" target="_blank">SpeedTest</a>
+                        </li>
+                        <li>
+                            <a href="https://imagemagick.org/script/command-line-processing.php" target="_blank">ImageMagick</a>
+                        </li>
+                        <li>
+                            <a href="https://stackify.com/top-command-line-tools/" target="_blank">50 Useful Command Line Tools</a>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h5>ZSH Customization</h5>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins" target="_blank">Plugins</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ohmyzsh/ohmyzsh/wiki/Themes" target="_blank">Themes</a>
+                        </li>
+                        <li>Aliases</li>
+                    </ul>
+                </section>
+                <section>
+                    <h5>Fonts</h5>
+                    <div style="text-align: center;">
+                        <a href="https://betterwebtype.com/articles/2020/02/13/5-monospaced-fonts-with-cool-coding-ligatures/" target="_blank">5 Fonts with Ligatures for Coding</a>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <p>Fira Code</p>
+                        <img src="assets/img/inaction-fira@2x.jpg" alt="Fira Code">
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <p>Iosevka</p>
+                        <img src="assets/img/inaction-iosevka@2x.jpg" alt="Iosevka">
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <p>Monoid</p>
+                        <img src="assets/img/inaction-monoid@2x.jpg" alt="Monoid">
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <p>Hasklig</p>
+                        <img src="assets/img/inaction-hasklig@2x.jpg" alt="Hasklig">
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <p>Jetbrains Mono</p>
+                        <img src="assets/img/inaction-jet@2x.jpg" alt="Jetbrains Mono">
+                    </div>
+                </section>
+                <section>
+                    <img src="assets/img/thanks.jpg" alt="Thanks">
+                </section>
 			</div>
 		</div>
 
@@ -31,7 +147,6 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
-
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
